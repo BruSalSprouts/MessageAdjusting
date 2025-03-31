@@ -85,7 +85,7 @@ client.on("interactionCreate", async (interaction) => {
     await interaction.deferReply({ flags: 64 });
 
     // Send the response after deferring
-    await interaction.editReply("✅ I will now respond in this channel!");
+    await interaction.editReply("I will now respond in this channel!");
   }
 });
 
