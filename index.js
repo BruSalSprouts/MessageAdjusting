@@ -94,7 +94,7 @@ client.on("messageCreate", async (message) => {
   if (message.author.bot) return;
 
   if (activeChannel && message.content.toLowerCase() === "hello bot") {
-    await activeChannel.send("Hello, World! 🌍");
+    await activeChannel.send("Hello, World! Why am I alive?");
   }
 });
 
